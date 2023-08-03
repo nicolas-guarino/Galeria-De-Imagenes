@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
 body {
     background-color: rgb(255, 255, 165);
+    font-family: 'Dosis', sans-serif;
 }
 
 .image{
