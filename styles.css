@@ -1,15 +1,48 @@
 body {
-    background-color: rgb(255, 255, 165);
+    background-color: rgb(255, 255, 227);
 }
 
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #888888;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+section h2 {
+    font-size: 2em;
+    margin: 20px 0 0 0;
+}
+section p {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+
 .image{
-    border: 5px solid green;
+    border: 5px solid rgb(54, 160, 181);
     border-radius: 10px;
     height: 400px;
+    width: 600px;
+    object-fit: cover;
+}
+
+div {
+    display: flex;
+    justify-content: center;
 }
 
 .link-button {
     text-decoration: none;
+
     color: #032d36;
     border: 1px solid #36a0b5;
     background-color: #36a0b5;
@@ -19,3 +52,4 @@ body {
     font-style: bold;
     font-family: "dosis", fantasy;
 }
+
