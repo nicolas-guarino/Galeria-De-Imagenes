@@ -39,6 +39,10 @@ section p {
     height: 400px;
     width: 600px;
     object-fit: cover;
+    transition: transform .6s;
+}
+.image:hover {
+    transform: scale(1.10);
 }
 
 div {
